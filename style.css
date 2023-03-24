@@ -1,0 +1,21 @@
+#a{
+ font-style: oblique;
+}
+
+#b{
+    color: aliceblue;
+    
+}
+.form{
+    margin: 2% 300px 15% 300px;
+    }
+label{
+    display:flexbox;
+    width: 30%;
+}
+.q{
+    margin: 0px 120px 0px 170px; 
+}
+.r{
+    margin: 0px 120px 0px 228px; 
+}

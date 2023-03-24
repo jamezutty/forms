@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <h4 class="container  w-25" id="a"><u>Student Registration Form</u></h4>
+    
+</head>
+<body>
+   
+    
+    
+     <form class="form" style="background-color: blueviolet;">
+        <div id="b">
+            <label for="f1" style="padding-left: 50px;">First Name</label>
+            <input type="text" id="f1" placeholder="firstname">(Max 30 Character a-z and A-Z)<br><br>
+            <label for="l1" style="padding-left: 50px;">Last Name</label>
+            <input type="text" id="l1" placeholder="lastname"><br><br>
+            <label for="dob " style="padding-left: 50px;">DOB</label>
+            <input type="date" id="dob" placeholder=""><br><br>
+            <label for="e1" style="padding-left: 50px;">E-mail ID</label>
+            <input type="text" id="e1" placeholder="example@gmail.com"><br><br>  
+            <label for="m1" style="padding-left: 50px;">Mobile Number</label>
+            <input type="number" id="m1" placeholder="">(Max 10 Digit No:)<br><br>
+            <label for="g1" style="padding-left: 50px;">Gender</label>
+            <input type="radio" name="" id="g1" value="male">Male
+            <input type="radio" name="" id="g1" value="female">Female <br>
+            <label for="a_1" style="padding-left: 50px;">Address</label><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <textarea id="a_1" class="q" placeholder=""></textarea><br><br>  
+            <label for="c1" style="padding-left: 50px;">City</label>
+            <input type="text" id="c1" placeholder="">(Max 30 Character a-z and A-Z)<br><br> 
+            <label for="p_1" style="padding-left: 50px;">Pin Code</label>
+            <input type="number" id="p_1" placeholder="">(Max 6 Number)<br><br>
+            <label for="s_1"style="padding-left: 50px;">State</label>
+            <input type="text" id="s_1" placeholder="">(Max 30 Character a-z and A-Z)<br><br> 
+            <label for="c_1" style="padding-left: 50px;">Country</label>
+            <input type="text" id="c_1" placeholder="firstname">(Max 30 Character a-z and A-Z)<br><br>
+            <label for="h_1" style="padding-left: 50px;">Hobbies</label>
+            <input type="checkbox" name="h_1" value="drawing"> Drawing
+            <input type="checkbox" name="h_1" value="singing"> Singing
+            <input type="checkbox" name="h_1" value="dancing"> Dancing
+            <input type="checkbox" name="h_1" value="singing"> Singing <br>
+            <div class="r">
+                <input type="checkbox"  name="h_1" value="other"> Others <input type="text" id="h_1"><br>
+            </div>
+            
+        </div>
+        <div id="b">
+            <label for="q_1" style="padding-left: 50px;"><b>Qualification</b></label><br><br>
+            <table>
+                <tr>
+                    <th>SL.NO:</th>
+                    <th>Examination</th>
+                    <th style="padding: 10px;">Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" id="q_1" name=""></td>
+                    <td><input type="text" id="q_1" name=""></td>
+                    <td><input type="text" id="q_1" name=""></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" id="q_1" name=""></td>
+                    <td><input type="text" id="q_1" name=""></td>
+                    <td><input type="text" id="q_1" name=""></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" id="q_1" name=""></td>
+                    <td><input type="text" id="q_1" name=""></td>
+                    <td><input type="text" id="q_1" name=""></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text" id="q_1" name=""></td>
+                    <td><input type="text" id="q_1" name=""></td>
+                    <td><input type="text" id="q_1" name=""></td>
+                </tr>
+
+            </table><br><br>
+            <label for="c_1">Courses Applied For:</label>
+            <input type="radio" name="" id="c_1" value="bca">Bca
+            <input type="radio" name="" id="c_1" value="bcom">Bcom
+            <input type="radio" name="" id="c_1" value="bsc">BSC
+            <input type="radio" name="" id="c_1" value="ba">BA<br><br>
+        </div>
+           
+            <div style="text-align: center;">
+                <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            </div>
+            
+        </form>
+    
+    
+    
+    </body>
+</html>
+
